@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI poem generator</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+</head>
+<body>
+    <div class ="container">
+    <h1>AI Recipe Generator</h1>
+  <main>
+    <div class = "form-container">
+    <form id = "recipe-generator-form">
+        <input type="text"
+             placeholder="Enter your ingredients here ..."
+            autofocus
+            required
+            autocomplete="off"
+            class = "instructions"
+            id = "user-instructions"
+        />
+        <input type="submit"  class = "submit-button"/>
+    
+    </form>
+    <small class = "hint">Eg. Bread, Butter, Jam</small>  
+    </div>
+    <div class = "recipe hidden" id = "recipe">
+        
+    </div>
+  </main>
+
+    <footer>This AI project was coded by <a href="https://github.com/Khanyi-Codes" target="_blank">Khanyisile Makhubu</a> 
+    code  <a href="https://github.com/Khanyi-Codes/AI-Poem-Generator" target="_blank">opensourced on Github</a> 
+    and website hosted on <a href="" target="_blank">Netlify</a></footer>
+    </div>
+<script src="src/index.js"></script></body>
+</html>
